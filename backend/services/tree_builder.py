@@ -1,6 +1,8 @@
 import re
 import pandas as pd
+from utils.logger import get_logger
 
+logger = get_logger(__name__)
 class FolderNode:
     def __init__(self,name,level,parent=None):
         self.name = name
@@ -20,8 +22,11 @@ def clean_folder_names(folder_name):
     return folder
 
 def build_tree(df):
+    logger.info("Building Folder tree...")
     if df is not None:
             root = FolderNode("ELP",-1)
+            logger.info("Ignoring empty cells..")
+            logger.info("folder name cleaning initiated..")
             for _,row in df.iterrows():
                 current=root
                 for level,folder_name in enumerate(row):
@@ -30,6 +35,8 @@ def build_tree(df):
                     folder_name = clean_folder_names(folder_name)
                     child = FolderNode(folder_name,level)
                     current = current.add_child(child)
+            logger.info("folder name cleaning finished..")
+            logger.info("Folder tree build completed...")
             return root
 
         

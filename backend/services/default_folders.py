@@ -1,5 +1,9 @@
 from backend.services.tree_builder import FolderNode
-def add_default_folders(node,length):
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
+def add_default_folders(node):
+    
     if node.level>=0:
         is_leaf = len(node.children)==0
         #tutorials and docs for every level
@@ -12,4 +16,5 @@ def add_default_folders(node,length):
             node.add_child(FolderNode("playground",-1))
     for child in node.children.values():
         if child.name not in ["tutorials","docs","playground","video"]:
-            add_default_folders(child,length)
+            add_default_folders(child)
+    

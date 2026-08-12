@@ -42,17 +42,23 @@ def zip_folder(folder_path,zip_path):
     with zipfile.ZipFile(zip_path,"w",zipfile.ZIP_DEFLATED) as zipf:
         for file in folder_path.rglob("*"):
             zipf.write(file,arcname=file.relative_to(folder_path))
+    logger.info("zip folder created")
     return zip_path
 
 def create_folder_structure(file_path):
     df = convert_dataframe(file_path)
-    length = len(df.columns)
+    subject = df[df.columns[0]].unique()[0]
+    logger.info(f"Folder creation initiated for {subject}")
     root = build_tree(df)
-    add_default_folders(root,length)
+    logger.info("adding default folders...")
+    add_default_folders(root)
+    logger.info("default folders added...")
     job_id = uuid4().hex
     output_path = ROOT / "output" / job_id
+    logger.info(f"Folder creation for {job_id} initiated...")
     create_folders(root, output_path)
+    logger.info("Folder creation finished")
     zipfile = zip_folder(output_path,ROOT / f"folder_structure.zip")
-    logger.info("folder structure created successfully")
+    logger.info(f"folder structure for {subject} created successfully")
     return zipfile
 
