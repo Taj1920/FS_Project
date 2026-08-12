@@ -1,0 +1,77 @@
+Subject	Module	Chapter	Topic	Sub-topic
+CSS	CSS Fundamentals	Introduction to CSS	Introduction	Why CSS
+CSS	CSS Fundamentals	Introduction to CSS	Introduction	What is CSS
+CSS	CSS Fundamentals	Applying CSS	Ways to add CSS	Inline CSS
+CSS	CSS Fundamentals	Applying CSS	Ways to add CSS	Internal CSS
+CSS	CSS Fundamentals	Applying CSS	Ways to add CSS	External CSS
+CSS	CSS Fundamentals	Applying CSS	Ways to add CSS	Prority
+CSS	CSS Fundamentals	CSS Selectors	Selectors	Simple Selectors
+CSS	CSS Fundamentals	CSS Selectors	Selectors	Combinator Selectors
+CSS	CSS Fundamentals	CSS Selectors	Selectors	Pseudo-Class Selectors
+CSS	CSS Fundamentals	CSS Selectors	Selectors	Pseudo-Element Selectors
+CSS	CSS Fundamentals	CSS Selectors	Selectors	Attribute Selectors
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Letter spacing
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Word spacing
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Line height
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Text Indentation
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Text Alignment
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Text Transformation
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Text Shadow
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Text Decoration
+CSS	CSS Fundamentals	Text Styling	Text-Properties	Text Wrap
+CSS	CSS Fundamentals	Fonts	Font-Properties	Font Family
+CSS	CSS Fundamentals	Fonts	Font-Properties	Font Weight
+CSS	CSS Fundamentals	Fonts	Font-Properties	Font Style
+CSS	CSS Fundamentals	Fonts	Font-Properties	Font Size
+CSS	CSS Fundamentals	Fonts	Font-Properties	Font Varient
+CSS	CSS Fundamentals	Fonts	Font-Properties	Font Face
+CSS	CSS Fundamentals	Box Model	Components of Box model	Content 
+CSS	CSS Fundamentals	Box Model	Components of Box model	Padding 
+CSS	CSS Fundamentals	Box Model	Components of Box model	Border 
+CSS	CSS Fundamentals	Box Model	Components of Box model	Margin
+CSS	CSS Fundamentals	Box Model	Box Model property	box-sizing
+CSS	CSS Fundamentals	Background	Background Properties	Background Color
+CSS	CSS Fundamentals	Background	Background Properties	Background Image , Size , Repeat
+CSS	CSS Fundamentals	Background	Background Properties	Background Position
+CSS	CSS Fundamentals	Background	Background Properties	Background Attachment
+CSS	CSS Fundamentals	Units	Types of units	Relative
+CSS	CSS Fundamentals	Units	Types of units	Absolute
+CSS	CSS Fundamentals	Colors	Color values	Solid 
+CSS	CSS Fundamentals	Colors	Color values	rgb,rgba
+CSS	CSS Fundamentals	Colors	Color values	hsl,hsla, 
+CSS	CSS Fundamentals	Colors	Color values	hex 
+CSS	CSS Fundamentals	Gradients	Types of gradients	Linear Gradient
+CSS	CSS Fundamentals	Gradients	Types of gradients	Radial Gradient
+CSS	CSS Fundamentals	Gradients	Types of gradients	Conic Gradient
+CSS	Advanced CSS	Positioning	Positions in css	Introduction
+CSS	Advanced CSS	Positioning	Positions in css	Relative
+CSS	Advanced CSS	Positioning	Positions in css	Static
+CSS	Advanced CSS	Positioning	Positions in css	Absolute
+CSS	Advanced CSS	Positioning	Positions in css	Fixed
+CSS	Advanced CSS	Positioning	Positions in css	Sticky
+CSS	Advanced CSS	Display	Display Properties	Introduction
+CSS	Advanced CSS	Display	Display Properties	Inline 
+CSS	Advanced CSS	Display	Display Properties	Block
+CSS	Advanced CSS	Display	Display Properties	Inline-Block
+CSS	Advanced CSS	Display	Display Properties	None
+CSS	Advanced CSS	Layout	Flex	Introduction 
+CSS	Advanced CSS	Layout	Flex	justify-content and align-item
+CSS	Advanced CSS	Layout	Flex	Parent Properties of Flex
+CSS	Advanced CSS	Layout	Flex	Child Properties of Flex
+CSS	Advanced CSS	Layout	Grid	Introduction
+CSS	Advanced CSS	Layout	Grid	Parent Properties of Grid
+CSS	Advanced CSS	Layout	Grid	Child Properties of Grid
+CSS	Advanced CSS	Transformation	Transform Properties	Introduction
+CSS	Advanced CSS	Transformation	Transform Properties	Translate
+CSS	Advanced CSS	Transformation	Transform Properties	Rotate
+CSS	Advanced CSS	Transformation	Transform Properties	Scale
+CSS	Advanced CSS	Transformation	Transform Properties	Skew
+CSS	Advanced CSS	Transitions	Transitions Properties	Introduction
+CSS	Advanced CSS	Transitions	Transitions Properties	Implementation of transition
+CSS	Advanced CSS	Animations	Animation properties	Introduction
+CSS	Advanced CSS	Animations	Animation properties	Animation using from and to
+CSS	Advanced CSS	Animations	Animation properties	Animation using percentage
+CSS	Advanced CSS	Animations	Animation properties	Animation short-hand property
+CSS	Advanced CSS	Responsive Design	Media queries	Introduction
+CSS	Advanced CSS	Responsive Design	Media queries	Syntax
+CSS	Advanced CSS	Responsive Design	Media queries	Implementation

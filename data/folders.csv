@@ -1,0 +1,34 @@
+Subject,Module,Chapter Name ,Topic,Sub Topic
+Numpy Library,Numpy,Data analysis Introduction,Introduction to Numpy,Introduction to Data analysis-Libraries
+Numpy Library,Numpy,Numpy array,Introduction to numpy array,Introduction to numpy array
+Numpy Library,Numpy,Numpy array,Types of array ,Types of array 
+Numpy Library,Numpy,Numpy array,Inbuilt functions of numpy part1,Inbuilt functions of numpy part1
+Numpy Library,Numpy,Numpy array,Inbuilt functions of numpy part2,Inbuilt functions of numpy part2
+Pandas Library,Pandas,Introduction,Introduction to pandas,Introduction to pandas
+Pandas Library,Pandas,Data Series and Dataframe,"Implementing Series, Data Frame and Reading files","Implementing Series, Data Frame and Reading files"
+Pandas Library,Pandas,Data Exploration,Understanding data exploration,Data Exploration
+Pandas Library,Pandas,Data cleaning,Understanding data cleaning,Data cleaning
+Pandas Library,Pandas,Data grouping,Learning groupby and aggregation,Groupby and aggregation
+Pandas Library,Pandas,Pandas-pivot table,Learning pivot table,Pivot table
+Pandas Library,Pandas,Dataframe concatenation,Learning Concatenation,Concatenation
+Pandas Library,Pandas,Dataframe Join,Learning Joins,Joins
+Pandas Library,Pandas,Data Feature engineering,Feature engineering,Feature engineering
+Pandas Library,Pandas,Dataframe persistence,Data persistence,Data persistence
+Matplotlib Library,Data visualization,Matplotlib,Introduction to data visualization,Introduction to data visualization
+Matplotlib Library,Data visualization,Matplotlib,Line chart,Line chart
+Matplotlib Library,Data visualization,Matplotlib,Bar chart,Bar chart
+Matplotlib Library,Data visualization,Matplotlib,Pie chart,Pie chart
+Matplotlib Library,Data visualization,Matplotlib,Histogram,Histogram
+Matplotlib Library,Data visualization,Matplotlib,Scatterplot,Scatterplot
+Matplotlib Library,Data visualization,Matplotlib,Subplots,Subplots
+Seaborn Library,Data visualization,Seaborn,Introduction to seaborn,Introduction to seaborn
+Seaborn Library,Data visualization,Seaborn,Distribution plots,Histplot
+Seaborn Library,Data visualization,Seaborn,Distribution plots,Jointplot
+Seaborn Library,Data visualization,Seaborn,Distribution plots,Pairplot
+Seaborn Library,Data visualization,Seaborn,Categorical plots,Countplot
+Seaborn Library,Data visualization,Seaborn,Categorical plots,Barplot
+Seaborn Library,Data visualization,Seaborn,Categorical plots,Boxplot
+Seaborn Library,Data visualization,Seaborn,Categorical plots,Scatterplot
+Seaborn Library,Data visualization,Seaborn,Categorical plots,Violinplot
+Seaborn Library,Data visualization,Seaborn,Matrix plot,Heatmap
+Seaborn Library,Data visualization,Seaborn,Regression plot,Lmplot
