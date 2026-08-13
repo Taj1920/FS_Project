@@ -58,7 +58,7 @@ def create_folder_structure(file_path):
     logger.info(f"Folder creation for {job_id} initiated...")
     create_folders(root, output_path)
     logger.info("Folder creation finished")
-    zipfile = zip_folder(output_path,ROOT / f"folder_structure.zip")
+    zipfile = zip_folder(output_path,ROOT / f"folder_structure{job_id}.zip")
     logger.info(f"folder structure for {subject} created successfully")
     return zipfile
 

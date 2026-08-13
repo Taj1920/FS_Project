@@ -23,7 +23,7 @@ async def generate_folder_structure(file:UploadFile = File(...)):
     with open(file_path,"wb") as buffer:
         shutil.copyfileobj(file.file,buffer)
     zip_path = create_folder_structure(file_path)
-    return FileResponse(path = zip_path,
+    return  FileResponse(path = zip_path,
                         filename="folder_structure.zip",
                         media_type="application/zip")
 
