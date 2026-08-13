@@ -1,10 +1,18 @@
+import shutil
 from fastapi import FastAPI,UploadFile,File
 from fastapi.responses import FileResponse
 from backend.main import create_folder_structure,display
 from pathlib import Path
-import shutil
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 UPLOAD_DIR = Path("uploads")
 UPLOAD_DIR.mkdir(exist_ok=True)
